@@ -41,8 +41,8 @@ stages:
         tags: |
           $(tag)
 
-    -task: PublishPipelineArtifact@1
-      inputs:
+      -task: PublishPipelineArtifact@1
+    inputs:
       artifactName: 'manifests'
       path: 'manifests'
 - stage: Deploy
