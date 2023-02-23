@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'fbaac0bc-370c-44d0-91c0-8673a9eb248a'
+  dockerRegistryServiceConnection: 'Sachit21ACR'
   imageRepository: 'sachitproject'
   containerRegistry: 'sachit21acr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
