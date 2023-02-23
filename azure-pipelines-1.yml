@@ -15,7 +15,7 @@ variables:
   containerRegistry: 'sachit21acr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
-  k8sconnection: sachit
+  k8sconnection: sachit21
   k8sNamespace: walmartdev
   imagePullSecret: test
 
