@@ -85,5 +85,5 @@ stages:
                 $(imagePullSecret)
               containers: |
                 $(containerRegistry)/$(imageRepository):$(tag)
-                kubernetesserviceconnection: $(k8sconnection)
+                kubernetesServiceConnection: $(k8sconnection)
               arguments: '--n=walmartdev'
