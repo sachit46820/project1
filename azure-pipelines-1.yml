@@ -41,11 +41,11 @@ stages:
         tags: |
           $(tag)
 
-   -task: PublishPipelineArtifact@1
+    -task: PublishPipelineArtifact@1
      inputs:
       artifactName: 'manifests'
       path: 'manifests'
-      
+
 - stage: Deploy
   displayName: Deploy stage
   dependsOn: Build
